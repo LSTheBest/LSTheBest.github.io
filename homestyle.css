@@ -1,0 +1,38 @@
+ul {
+    margin:10px;
+    border:3px solid black;
+    font-size: 17px;
+ }
+body {
+	background-color: white;
+ }
+nav {
+    max-width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+ }
+a:hover {
+    background-color: lightgrey;
+ }
+.btn-group .button {
+	background-color: whitesmoke;
+	border: 1px solid whitesmoke;
+	color: gray;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	min-width: 25%;
+	float: left;
+ }
+.btn-group .button:not(:last-child) {
+	border-right: none;
+ }
+.btn-group .button:hover {
+	background-color: lightgray;
+ }
+iframe {
+	float: right;
+ }
