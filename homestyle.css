@@ -40,4 +40,5 @@ iframe {
 .lsnews{
 	font-size: 60px;
 	color: darkblue;
+	max-width: 1000px;
 }
