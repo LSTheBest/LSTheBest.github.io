@@ -1,9 +1,9 @@
 .write {
-    border: 3px solid black;
     float: left;
     padding: 10px;
-    max-width: 50%;
+	max-width: 80%;
+	font-size: 30px;
  }
-a {
-    font-size: 20px;
- }
+.x{
+	font-size: 30px;
+}
