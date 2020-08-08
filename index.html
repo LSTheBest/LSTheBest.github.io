@@ -2,19 +2,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="homestyle.css">
+        <link rel="stylesheet" href="css-extra.css">
         <title>Home</title>
     </head>
     <body>
         <div>
-            <div class="btn-group">
-                <button class="button" onclick="document.location='index.html'">Home</button>
-                <button class="button" onclick="document.location='Comments.html'">Chat Box</button>
-                <button class="button" onclick="document.location='Games.html'">Games & Other Sites</button>
-                <button class="button" onclick="document.location='About.html'">About</button>
-            </div>
+            <ul class="nav nav-tabs nav-justified">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Comments.html">Chat Box</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Games.html">Games & Other Sites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href='About.html'>About</a>
+                </li>
+            </ul>
             <iframe src="JSHTML.html" height="75px" width="190px"></iframe><br><br><br><br><br><br><br><br><br>
             <nav>
-                <ul>
+                <ul class="z">
                     <li><a href="fishtank.html">Fish</a></li><br><br>
                     <li><a href="gameblog.html">Video Games</a></li><br><br>
                     <li><a href="pythoncode.html">Python Code</a></li><br><br>
@@ -22,9 +31,6 @@
                     <li><a href="galleries.html">Photo Galleries</a></li><br><br>
                 </ul>
             </nav>
-            <div class="lsnews">
-                Be one of the first ten to post a comment!
-            </div>
             <div style="max-width: 190px; border: 3px solid black; float:right; margin-top: 0px; position: fixed; top: 150px; right: 7px;">
                 About Website: <br>
                 <p>
