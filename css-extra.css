@@ -3,6 +3,13 @@
 iframe {
 	float: right;
  }
+a {
+	background-color: lightgrey;
+	font-size: 17px;
+ }
 a:hover {
-    background-color: lightgray;
+	background-color: grey;
+ }
+body {
+	font-family: arial;
  }
