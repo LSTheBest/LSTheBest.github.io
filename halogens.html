@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css-extra.css">
     <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Halogen Photos</title>
 </head>
 
@@ -33,7 +34,7 @@
                 <a class="nav-link" href='About.html'>About</a>
             </li>
         </ul>
-        <iframe src="JSHTML.html" height="75px" width="190px"></iframe><br>
+        <iframe src="JSHTML.html" height="80px" width="210px"></iframe><br>
         <div style="max-width: 190px;  float:right; margin-top: 0px; position: fixed; top: 150px; right: 7px;">
             <p>
                 This website is created by Lucas Sun for personal use. All rights reserved.
@@ -53,18 +54,33 @@
             <a href="halogens.html" class="btn btn-primary active" style="min-width: 255px; text-align: center;">Halogens</a>
             <a href="noblegases.html" class="btn btn-primary" style="min-width: 255px; text-align: center;">Noble Gases</a>
         </div>
-        <div class="card" style="width: 20%; float: left; align-self: center;">
-            <img class="card-img-top" src="fluorine.jpg">
-            <div class="card-body">
-                <button class="btn btn-primary" onclick="a('coming soon...')">F</button>
+        <div class="album py-5 bg-light" style="color: black; padding-right: 20%;">
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="imgs/halogens/fluorine.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">
+                      <h3>Fluorine</h3>
+                      <br>
+                      Atomic Mass: 19 <br> Atomic Number: 9 <br> <br>Fluorine is important in creating nuclear material for
+                      nuclear power plants and insulating electrical towers. It also is used to etch glass in the form of
+                      hydrogen fluoride. Fluorine is used to make plastics, such as Teflon, and is also important in dental
+                      health.</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
             </div>
-        </div>
-        <script>
-            function a(txt){
-                alert(txt)
-            }
-        </script>
+          </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
